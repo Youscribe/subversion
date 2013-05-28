@@ -38,7 +38,7 @@ else
 
   extra_packages = value_for_platform_family(
     "debian" => ["subversion-tools", "libsvn-perl"],
-    ["rhel", "fedora", "suse"] => ["subversion-devel, subversion-perl"]
+    ["rhel", "fedora", "suse"] => ["subversion-devel", "subversion-perl"]
   )
 
   extra_packages.each do |pkg|
